@@ -1,0 +1,177 @@
+#include <iostream>
+#include <cstdlib>
+#include <stdio.h>
+
+	 using namespace std;
+	 
+	 int main()
+
+	{
+	 
+    	int op;
+    	int opcion, cantidad, total, opc2, respu;
+			
+	
+	
+	 while (op != 5)
+	{
+		cout<<"BIENVENIDO A CINE FONTANAR"<<endl;
+		cout<<"=========================="<<endl;
+		cout<<"MENU DE PELICULAS DISPONIBLE"<<endl;
+		cout<<"1) KING KONG "<<endl;
+		cout<<"2) STAR WARS "<<endl;
+		cout<<"3) CAMINO HACIA EL TERROR 4"<<endl;
+		cout<<"4) FINCH AND VIOLET"<<endl;
+		cout<<"5) STAND DE LOS BESOS 2"<<endl;
+		cout<<"6) ORDENE SU BOTANA "<<endl;
+		cout<<"DIGITE UNA OPCION:" ;
+		cin>>op;
+				
+		switch(op)
+		{
+		case 1:
+			//clrscr
+			system("cls");
+			cout<<"USTED ESCOGIO KING KONG"<<endl;
+			cout<<"2014"<<endl;
+			cout<<"DISFRUTE DE SU PELICULA"<<endl;
+			system("pause");
+			system("cls");
+		break;
+		case 2:
+				//clrscr
+			system("cls");
+			cout<<"USTED ESCOGIO STAR WARS"<<endl;
+			cout<<"2015"<<endl;
+			cout<<"DISFRUTE DE SU PELICULA"<<endl;
+			system("pause");
+			system("cls");
+		break;
+		case 3:
+				//clrscr
+			system("cls");
+			cout<<"USTED ESCOGIO CAMINO HACIA EL TERROR 4"<<endl;
+			cout<<"2018"<<endl;
+			cout<<"DISFRUTE DE SU PELICULA"<<endl;
+			system("pause");
+			system("cls");
+		break;
+		case 4:
+				//clrscr
+			system("cls");
+			cout<<"USTED ESCOGIO FINCH AND VIOLET"<<endl;
+			cout<<"2019"<<endl;
+			system("pause");
+			system("cls");
+		break;
+		case 5:
+				//clrscr
+			system("cls");
+			cout<<"USTED ESCOGIO STAND DE LOS BESOS 2"<<endl;
+			cout<<"2019"<<endl;
+			cout<<"DISFRUTE DE SU PELICULA"<<endl;
+			system("pause");
+			system("cls");
+		break;
+		default:
+			if(op < 1 || op >5 )
+			{
+			system("cls");
+			cout<<endl<<"USTED ESCOGIO UNA OPCION INVALIDA...."<<endl;
+			cout<<"VUELVA AL MENU PRINCIPAL"<<endl;
+			system("pause");
+			system("cls");
+			
+			 while (op != 5)
+			 
+			  
+
+{
+
+	
+ 				printf(">>>>>>>>MENU DE BOTANAS<<<<<<<<");
+				printf("\n===================================");
+				printf("\n1.POPOROPOS Y GASEOSA Q25.00");
+				printf("\n2.NACHOS Y BEBIDA Q45.00");
+				printf("\n3.GASEOSA Y HOT DOG Q35.00");
+				printf("\n4.PAPAS FRITAS Y LICUADO Q30.00");
+				printf("\n5.HAMBURGUESA Y GASEOSA Q55.00");
+				cout<<"\n6. SALIR"<<endl;
+				printf("\n\nELIJA SU OPCION:");
+				scanf("%d", &opcion);
+	
+	switch (opcion)
+	{
+		case 1:
+			printf("\nSU ELECCION A SIDO POPOROPOS Y GASEOSA.");
+			printf("\nCUANTAS DESEA ORDENAR.");
+			scanf("%d", & cantidad);
+			printf("\nSu total a pagar es de: %d",total=(cantidad*25));
+	    	system("pause");
+	    	system("cls");
+		
+		break;
+		case 2:
+			printf("\nSU ELECCION A SIDO NACHOS Y BEBIDA.");
+			printf("\nCUANTAS DESEA ORDENAR.");
+			scanf("%d", &cantidad);
+			printf("\nSU TOTAL A PAGAR ES DE: %d",total=( cantidad*45));
+			system("pause");
+			system("cls");
+		break;
+		case 3:	
+	    	printf("\nSU ELECCION A SIDO GASEOSA Y HOT DOG.");
+			printf("\nCUANTAS DESEA ORDENAR.");
+			scanf("%d", &cantidad);
+			printf("\nSU TOTAL A PAGAR ES DE: %d",total=(cantidad*35));
+			system("pause");
+			system("cls");
+		break;
+		case 4:
+			printf("\nSU ELECCION A SIDO PAPAS FRITAS Y LICUADO.");
+			printf("\nCUANTAS DESEA ORDENAR.");
+			scanf("%d", &cantidad);
+			printf("\nSU TOTAL A PAGAR ES DE: %d",total=(cantidad*30));
+			system("pause");
+			system("cls");
+			
+		break;
+		case 5:
+			printf("\nSU ELECCION A SIDO HAMBURGUESA Y GASEOSA.");
+			printf("\nCUANTAS DESEA ORDENAR.");
+			scanf("%d", &cantidad);
+			printf("\nDESEA AGREGAR PAPAS FRITAS CON VALOR DE Q. 15.00:\n\n 1.  SI  2.  NO.");
+			scanf("%d",&opc2);
+		    if(opc2==1)	
+		   {
+		    	printf("\nSU TOTAL A PAGAR ES DE: %d",total=(cantidad*55)+15);
+			}
+			else
+			{
+				printf("\nSU TOTAL A PAGAR ES DE: %d",total=(cantidad*55.00));
+			}
+		break;
+		
+		
+		
+		default:
+			printf("\nOPCION NO VALIDA");
+		{
+	
+			
+			
+			
+			}	
+ 	return 0;
+			
+		break;
+		}				
+		
+	}
+	
+      }
+
+  			 }
+		}
+
+				}
